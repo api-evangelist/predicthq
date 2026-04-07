@@ -1,9 +1,8 @@
 aid: predicthq
 name: PredictHQ
 description: >-
-  The largest companies in the world leverage PredictHQs AI-powered platform to
-  make smarter business decisions by predicting future demand from real-world
-  events. 
+  The largest companies in the world leverage PredictHQs AI-powered platform to make
+  smarter business decisions by predicting future demand from real-world events.
 type: Index
 position: Consumer
 access: 3rd-Party
@@ -19,9 +18,9 @@ apis:
   - aid: predicthq:predicthq
     name: PredictHQ
     description: >-
-      The largest companies in the world leverage PredictHQs AI-powered platform
-      to make smarter business decisions by predicting future demand from
-      real-world events. 
+      The largest companies in the world leverage PredictHQs AI-powered platform to
+      make smarter business decisions by predicting future demand from real-world
+      events.
     humanURL: ' https://www.predicthq.com/'
     tags:
       - API
