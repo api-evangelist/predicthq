@@ -7,8 +7,7 @@ type: Index
 position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
+tags: []
 created: '2025-02-24'
 modified: '2025-02-24'
 url: >-
@@ -22,8 +21,7 @@ apis:
       make smarter business decisions by predicting future demand from real-world
       events.
     humanURL: ' https://www.predicthq.com/'
-    tags:
-      - API
+    tags: []
     properties:
       - type: Documentation
         url: ' https://www.predicthq.com/'
