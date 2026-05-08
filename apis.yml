@@ -45,6 +45,8 @@ apis:
         url: https://docs.predicthq.com/
       - type: API Reference
         url: https://docs.predicthq.com/api/getting-started
+      - type: OpenAPI
+        url: openapi/predicthq-openapi.yml
       - type: Authentication
         url: https://docs.predicthq.com/api/authentication
       - type: Getting Started
