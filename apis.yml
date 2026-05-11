@@ -76,6 +76,14 @@ common:
     url: https://www.predicthq.com/legal/data-security-and-availability
   - type: GitHub Organization
     url: https://github.com/predicthq
+  - type: Integrations
+    url: https://www.predicthq.com/partners
+integrations:
+  - name: BlueYonder
+  - name: AWS
+  - name: WebApp
+  - name: Beam
+  - name: Suggested Radius
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
