@@ -74,6 +74,8 @@ common:
   url: https://github.com/predicthq
 - type: Integrations
   url: https://www.predicthq.com/partners
+- type: LLMsTxt
+  url: https://docs.predicthq.com/llms.txt
 integrations:
 - name: BlueYonder
 - name: AWS
