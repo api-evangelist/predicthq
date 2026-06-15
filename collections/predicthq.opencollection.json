@@ -1,0 +1,75 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "PredictHQ API",
+    "version": "1.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "bearer",
+      "token": "{{bearerToken}}"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Search Events",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.predicthq.com/v1/events/"
+      },
+      "docs": "Search across global real-world events."
+    },
+    {
+      "info": {
+        "name": "Get Event Counts",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.predicthq.com/v1/events/count/"
+      },
+      "docs": "Get the count of events by category, PHQ Label and more."
+    },
+    {
+      "info": {
+        "name": "Get ML Features",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://api.predicthq.com/v1/features/",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "Prebuilt event-based features for Machine Learning models."
+    },
+    {
+      "info": {
+        "name": "Get Suggested Radius",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.predicthq.com/v1/suggested-radius/"
+      },
+      "docs": "Returns the suggested radius for a given location."
+    },
+    {
+      "info": {
+        "name": "Get Place Hierarchies",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.predicthq.com/v1/places/"
+      },
+      "docs": "Retrieve PredictHQ place hierarchies."
+    }
+  ],
+  "bundled": true
+}
