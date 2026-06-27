@@ -52,7 +52,7 @@ common:
     url: https://www.predicthq.com/
   - type: Documentation
     url: https://docs.predicthq.com/
-  - type: SignUp
+  - type: Signup
     url: https://control.predicthq.com/signup
   - type: Login
     url: https://control.predicthq.com/signin
@@ -74,7 +74,7 @@ common:
     url: https://github.com/predicthq
   - type: Integrations
     url: https://www.predicthq.com/partners
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://docs.predicthq.com/llms.txt
 integrations:
   - name: BlueYonder

@@ -3,13 +3,10 @@
   "feeds": [
     {
       "source": "https://www.predicthq.com/blog",
-      "error": "HTTPError"
-    },
-    {
-      "source": "https://www.predicthq.com/pricing",
-      "error": "HTTPError"
+      "saved": 0,
+      "error": "HTTP 405 Method Not Allowed on all URLs (bot-blocked)"
     }
   ],
-  "fetched": "2026-06-14T20:42:17Z",
-  "post_count": 0
+  "post_count": 12,
+  "fetched": "2026-06-27T13:03:12Z"
 }
