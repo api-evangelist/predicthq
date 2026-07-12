@@ -46,6 +46,10 @@ apis:
       - type: GettingStarted
         url: https://docs.predicthq.com/getting-started
 common:
+  - type: DomainSecurity
+    url: security/predicthq-domain-security.yml
+  - type: Authentication
+    url: authentication/predicthq-authentication.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/predicthq
   - type: Portal
