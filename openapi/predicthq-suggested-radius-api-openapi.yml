@@ -1,0 +1,38 @@
+openapi: 3.1.0
+info:
+  title: PredictHQ Events Suggested Radius API
+  description: PredictHQ REST API providing programmatic access to global real-world event data, demand intelligence, machine learning features, and forecasts.
+  version: 1.0.0
+  x-generated-from: https://docs.predicthq.com/
+  x-generated-by: claude-crawl-2026-05-08
+servers:
+- url: https://api.predicthq.com/v1
+  description: PredictHQ API v1
+security:
+- bearerAuth: []
+tags:
+- name: Suggested Radius
+paths:
+  /suggested-radius/:
+    get:
+      summary: Get Suggested Radius
+      description: Returns the suggested radius for a given location.
+      operationId: getSuggestedRadius
+      responses:
+        '200':
+          description: Suggested radius result.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponse'
+      tags:
+      - Suggested Radius
+components:
+  schemas:
+    GenericResponse:
+      type: object
+      additionalProperties: true
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer

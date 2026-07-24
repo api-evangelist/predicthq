@@ -1,0 +1,47 @@
+openapi: 3.1.0
+info:
+  title: PredictHQ Events Features API
+  description: PredictHQ REST API providing programmatic access to global real-world event data, demand intelligence, machine learning features, and forecasts.
+  version: 1.0.0
+  x-generated-from: https://docs.predicthq.com/
+  x-generated-by: claude-crawl-2026-05-08
+servers:
+- url: https://api.predicthq.com/v1
+  description: PredictHQ API v1
+security:
+- bearerAuth: []
+tags:
+- name: Features
+paths:
+  /features/:
+    post:
+      summary: Get ML Features
+      description: Prebuilt event-based features for Machine Learning models.
+      operationId: getFeatures
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GenericRequest'
+      responses:
+        '200':
+          description: Feature values.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponse'
+      tags:
+      - Features
+components:
+  schemas:
+    GenericResponse:
+      type: object
+      additionalProperties: true
+    GenericRequest:
+      type: object
+      additionalProperties: true
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer

@@ -1,0 +1,52 @@
+openapi: 3.1.0
+info:
+  title: PredictHQ Events API
+  description: PredictHQ REST API providing programmatic access to global real-world event data, demand intelligence, machine learning features, and forecasts.
+  version: 1.0.0
+  x-generated-from: https://docs.predicthq.com/
+  x-generated-by: claude-crawl-2026-05-08
+servers:
+- url: https://api.predicthq.com/v1
+  description: PredictHQ API v1
+security:
+- bearerAuth: []
+tags:
+- name: Events
+paths:
+  /events/:
+    get:
+      summary: Search Events
+      description: Search across global real-world events.
+      operationId: searchEvents
+      responses:
+        '200':
+          description: A list of events.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponse'
+      tags:
+      - Events
+  /events/count/:
+    get:
+      summary: Get Event Counts
+      description: Get the count of events by category, PHQ Label and more.
+      operationId: getEventCounts
+      responses:
+        '200':
+          description: Event count summary.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponse'
+      tags:
+      - Events
+components:
+  schemas:
+    GenericResponse:
+      type: object
+      additionalProperties: true
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
