@@ -6,9 +6,22 @@ description: >-
   and impact analytics across categories such as concerts, sports, conferences, public holidays, school terms, severe
   weather, and more, helping enterprises make smarter decisions about staffing, inventory, pricing, and marketing.
 type: Index
+accessModel:
+  pricing: freemium
+  onboarding: self-serve
+  trial: false
+  try_now: true
+  public: false
+  label: Freemium · Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/predicthq.png
 tags:
   - Demand Intelligence
   - Events
@@ -20,31 +33,74 @@ modified: '2026-05-19'
 url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/apis.yml
 specificationVersion: '0.19'
 apis:
-  - aid: predicthq:predicthq-api
-    name: PredictHQ API
-    description: >-
-      The PredictHQ REST API provides programmatic access to global real-world event data and demand intelligence. It
-      exposes endpoints for the Events API, Features API, Forecasts API, Beam API, Saved Locations API, Predicted Impact
-      Area API, Places API, and Loop API. The API is served from https://api.predicthq.com/v1/ and uses Bearer token
-      authentication with API access tokens.
-    humanURL: https://www.predicthq.com/
-    tags:
-      - Demand Intelligence
-      - Events
-      - Forecasting
-      - Machine Learning
-      - REST API
-    properties:
-      - type: Documentation
-        url: https://docs.predicthq.com/
-      - type: APIReference
-        url: https://docs.predicthq.com/api/getting-started
-      - type: OpenAPI
-        url: openapi/predicthq-openapi.yml
-      - type: Authentication
-        url: https://docs.predicthq.com/api/authentication
-      - type: GettingStarted
-        url: https://docs.predicthq.com/getting-started
+- aid: predicthq:predicthq-events-api
+  name: PredictHQ Events API
+  description: The Events API from PredictHQ — 2 operation(s) for events.
+  humanURL: https://www.predicthq.com/
+  tags:
+  - Events
+  properties:
+  - type: OpenAPI
+    url: openapi/predicthq-events-api-openapi.yml
+  - type: Documentation
+    url: https://docs.predicthq.com/
+  - type: APIReference
+    url: https://docs.predicthq.com/api/getting-started
+  - type: Authentication
+    url: https://docs.predicthq.com/api/authentication
+  - type: GettingStarted
+    url: https://docs.predicthq.com/getting-started
+- aid: predicthq:predicthq-features-api
+  name: PredictHQ Features API
+  description: The Features API from PredictHQ — 1 operation(s) for features.
+  humanURL: https://www.predicthq.com/
+  tags:
+  - Features
+  properties:
+  - type: OpenAPI
+    url: openapi/predicthq-features-api-openapi.yml
+  - type: Documentation
+    url: https://docs.predicthq.com/
+  - type: APIReference
+    url: https://docs.predicthq.com/api/getting-started
+  - type: Authentication
+    url: https://docs.predicthq.com/api/authentication
+  - type: GettingStarted
+    url: https://docs.predicthq.com/getting-started
+- aid: predicthq:predicthq-places-api
+  name: PredictHQ Places API
+  description: The Places API from PredictHQ — 1 operation(s) for places.
+  humanURL: https://www.predicthq.com/
+  tags:
+  - Places
+  properties:
+  - type: OpenAPI
+    url: openapi/predicthq-places-api-openapi.yml
+  - type: Documentation
+    url: https://docs.predicthq.com/
+  - type: APIReference
+    url: https://docs.predicthq.com/api/getting-started
+  - type: Authentication
+    url: https://docs.predicthq.com/api/authentication
+  - type: GettingStarted
+    url: https://docs.predicthq.com/getting-started
+- aid: predicthq:predicthq-suggested-radius-api
+  name: PredictHQ Suggested Radius API
+  description: The Suggested Radius API from PredictHQ — 1 operation(s) for suggested radius.
+  humanURL: https://www.predicthq.com/
+  tags:
+  - Suggested Radius
+  properties:
+  - type: OpenAPI
+    url: openapi/predicthq-suggested-radius-api-openapi.yml
+  - type: Documentation
+    url: https://docs.predicthq.com/
+  - type: APIReference
+    url: https://docs.predicthq.com/api/getting-started
+  - type: Authentication
+    url: https://docs.predicthq.com/api/authentication
+  - type: GettingStarted
+    url: https://docs.predicthq.com/getting-started
 common:
   - type: AgenticAccess
     url: agentic-access/predicthq-agentic-access.yml
