@@ -1,0 +1,91 @@
+openapi: 3.1.0
+info:
+  title: PredictHQ API
+  description: PredictHQ REST API providing programmatic access to global real-world event data, demand intelligence, machine learning features, and forecasts.
+  version: 1.0.0
+  x-generated-from: https://docs.predicthq.com/
+  x-generated-by: claude-crawl-2026-05-08
+servers:
+  - url: https://api.predicthq.com/v1
+    description: PredictHQ API v1
+security:
+  - bearerAuth: []
+paths:
+  /events/:
+    get:
+      summary: Search Events
+      description: Search across global real-world events.
+      operationId: searchEvents
+      responses:
+        '200':
+          description: A list of events.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponse'
+  /events/count/:
+    get:
+      summary: Get Event Counts
+      description: Get the count of events by category, PHQ Label and more.
+      operationId: getEventCounts
+      responses:
+        '200':
+          description: Event count summary.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponse'
+  /features/:
+    post:
+      summary: Get ML Features
+      description: Prebuilt event-based features for Machine Learning models.
+      operationId: getFeatures
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GenericRequest'
+      responses:
+        '200':
+          description: Feature values.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponse'
+  /suggested-radius/:
+    get:
+      summary: Get Suggested Radius
+      description: Returns the suggested radius for a given location.
+      operationId: getSuggestedRadius
+      responses:
+        '200':
+          description: Suggested radius result.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponse'
+  /places/:
+    get:
+      summary: Get Place Hierarchies
+      description: Retrieve PredictHQ place hierarchies.
+      operationId: getPlaces
+      responses:
+        '200':
+          description: Place hierarchy result.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenericResponse'
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+  schemas:
+    GenericRequest:
+      type: object
+      additionalProperties: true
+    GenericResponse:
+      type: object
+      additionalProperties: true

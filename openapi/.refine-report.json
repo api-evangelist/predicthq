@@ -1,0 +1,20 @@
+{
+  "provider": "predicthq",
+  "sources": [
+    "predicthq-events-api-openapi.yml",
+    "predicthq-features-api-openapi.yml",
+    "predicthq-places-api-openapi.yml",
+    "predicthq-suggested-radius-api-openapi.yml"
+  ],
+  "outputs": [
+    "predicthq-events-api-openapi.yml",
+    "predicthq-features-api-openapi.yml",
+    "predicthq-places-api-openapi.yml",
+    "predicthq-suggested-radius-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
