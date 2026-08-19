@@ -1,0 +1,35 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "PredictHQ Events Suggested Radius API",
+    "version": "1.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "bearer",
+      "token": "{{bearerToken}}"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Suggested Radius",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Get Suggested Radius",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.predicthq.com/v1/suggested-radius/"
+          },
+          "docs": "Returns the suggested radius for a given location."
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

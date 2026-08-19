@@ -1,0 +1,35 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "PredictHQ Events Places API",
+    "version": "1.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "bearer",
+      "token": "{{bearerToken}}"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Places",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Get Place Hierarchies",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.predicthq.com/v1/places/"
+          },
+          "docs": "Retrieve PredictHQ place hierarchies."
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

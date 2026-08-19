@@ -1,0 +1,39 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "PredictHQ Events Features API",
+    "version": "1.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "bearer",
+      "token": "{{bearerToken}}"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Features",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Get ML Features",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://api.predicthq.com/v1/features/",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Prebuilt event-based features for Machine Learning models."
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

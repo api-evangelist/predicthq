@@ -1,0 +1,121 @@
+{
+  "item": [
+    {
+      "id": "e45b2011-2e75-48af-aa8d-89a7db5bc664",
+      "name": "Suggested Radius",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "889717cd-b360-4d58-acb7-4fee700e01ce",
+          "name": "Get Suggested Radius",
+          "request": {
+            "name": "Get Suggested Radius",
+            "description": {
+              "content": "Returns the suggested radius for a given location.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "suggested-radius",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "40165583-ab06-4e96-8f63-3e58292d7e16",
+              "name": "Suggested radius result.",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "suggested-radius",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"key_0\": \"string\",\n  \"key_1\": \"string\",\n  \"key_2\": \"string\"\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://api.predicthq.com/v1",
+      "key": "baseUrl"
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{bearerToken}}"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "e55bd180-a87e-45d2-bb9a-d10f68036b05",
+    "name": "PredictHQ Events Suggested Radius API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "PredictHQ REST API providing programmatic access to global real-world event data, demand intelligence, machine learning features, and forecasts.",
+      "type": "text/plain"
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "item": [
+    {
+      "id": "7a5ebfbe-121a-4926-92dd-c269df929c3b",
+      "name": "Places",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "6bab639c-694d-454c-9440-3435066b2885",
+          "name": "Get Place Hierarchies",
+          "request": {
+            "name": "Get Place Hierarchies",
+            "description": {
+              "content": "Retrieve PredictHQ place hierarchies.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "places",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "d62b0215-08d9-43c5-bb04-0cb4104db822",
+              "name": "Place hierarchy result.",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "places",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"key_0\": 5856.55978008273,\n  \"key_1\": \"string\"\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://api.predicthq.com/v1",
+      "key": "baseUrl"
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{bearerToken}}"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "54c6ef8b-fa9a-4b23-9dc9-5f5926470c7d",
+    "name": "PredictHQ Events Places API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "PredictHQ REST API providing programmatic access to global real-world event data, demand intelligence, machine learning features, and forecasts.",
+      "type": "text/plain"
+    }
+  }
+}

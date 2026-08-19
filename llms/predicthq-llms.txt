@@ -1,0 +1,217 @@
+# PredictHQ Tech Docs
+
+## Tech Docs
+
+- [Overview](https://docs.predicthq.com/readme.md): Docs, guides, and API references to help you build with PredictHQ.
+- [How to use PredictHQ](https://docs.predicthq.com/how-to-use-predicthq.md): The recommended integration paths for PredictHQ: train forecasting models on event features, ground AI systems in verified real-world context, or get event-driven forecasts without building a model.
+- [API Quickstart](https://docs.predicthq.com/getting-started/api-quickstart.md): Get your API key, make your first call, and understand how PredictHQ fits into a production integration.
+- [Core Concepts](https://docs.predicthq.com/getting-started/core-concepts.md)
+- [Event-Driven Demand](https://docs.predicthq.com/getting-started/core-concepts/event-driven-demand.md): Using real-world events to improve forecasting and operational decisions introduces structural challenges around scope, relevance, usability, and trust.
+- [What is Beam?](https://docs.predicthq.com/getting-started/core-concepts/what-is-beam.md)
+- [What is the Features API?](https://docs.predicthq.com/getting-started/core-concepts/what-is-the-features-api.md)
+- [Which API Should I Use?](https://docs.predicthq.com/getting-started/core-concepts/which-api-should-i-use.md)
+- [Industry-Tuned Predictions](https://docs.predicthq.com/getting-started/core-concepts/industry-tuned-predictions.md)
+- [Data Leakage in Backtesting: Why It Doesn't Affect Forecast Accuracy](https://docs.predicthq.com/getting-started/core-concepts/data-leakage-in-backtesting.md)
+- [Glossary](https://docs.predicthq.com/getting-started/glossary.md): Definitions of key terms used across PredictHQ’s platform and APIs. Use as a reference.
+- [Data Science Notebooks](https://docs.predicthq.com/getting-started/data-science-notebooks.md): Jupyter notebooks for training and improving demand forecasting models with PredictHQ event features—Beam calibration, model-ready features, and worked forecasting examples.
+- [PredictHQ Data](https://docs.predicthq.com/getting-started/predicthq-data.md)
+- [Data Accuracy](https://docs.predicthq.com/getting-started/predicthq-data/data-accuracy.md)
+- [Event Categories](https://docs.predicthq.com/getting-started/predicthq-data/event-categories.md)
+- [Attendance-Based Events](https://docs.predicthq.com/getting-started/predicthq-data/event-categories/attendance-based-events.md): Attended Events are gatherings with a start and end date/time, where people come together in one location for entertainment or business.
+- [Non-Attendance-Based Events](https://docs.predicthq.com/getting-started/predicthq-data/event-categories/non-attendance-based-events.md): Non-Attendance-Based Events are events with a start and end date, but are more fluid and distributed in impact, such as observances or school holidays.
+- [Unscheduled Events](https://docs.predicthq.com/getting-started/predicthq-data/event-categories/unscheduled-events.md): Live coverage of breaking events such as severe weather and terrorism. The API updates minute to minute to ensure accuracy.
+- [Live TV Events](https://docs.predicthq.com/getting-started/predicthq-data/event-categories/live-tv-events.md): Live TV Events covers live broadcast sports games with a large number of people watching at a particular time across different counties across the United States.
+- [Labels](https://docs.predicthq.com/getting-started/predicthq-data/labels.md): Event labels are succinct descriptive attributes attached to events that can help with granular data selection and feature engineering use cases.
+- [Entities](https://docs.predicthq.com/getting-started/predicthq-data/entities.md)
+- [Ranks](https://docs.predicthq.com/getting-started/predicthq-data/ranks.md)
+- [PHQ Rank](https://docs.predicthq.com/getting-started/predicthq-data/ranks/phq-rank.md)
+- [Local Rank](https://docs.predicthq.com/getting-started/predicthq-data/ranks/local-rank.md)
+- [Predicted Attendance](https://docs.predicthq.com/getting-started/predicthq-data/predicted-attendance.md): Predicted Attendance represents the number of people predicted to attend an event.
+- [Predicted End Times](https://docs.predicthq.com/getting-started/predicthq-data/predicted-end-times.md)
+- [Predicted Event Spend](https://docs.predicthq.com/getting-started/predicthq-data/predicted-event-spend.md)
+- [Predicted Events](https://docs.predicthq.com/getting-started/predicthq-data/predicted-events.md): Get insight into events as early as possible, to assess whether they would have an impact on your business.
+- [Predicted Impact Patterns](https://docs.predicthq.com/getting-started/predicthq-data/impact-patterns.md)
+- [Guides](https://docs.predicthq.com/getting-started/guides.md)
+- [Geolocation Guides](https://docs.predicthq.com/getting-started/guides/geolocation-guides.md)
+- [Overview](https://docs.predicthq.com/getting-started/guides/geolocation-guides/overview.md)
+- [Searching by Location](https://docs.predicthq.com/getting-started/guides/geolocation-guides/searching-by-location.md)
+- [Find Events by Latitude/Longitude and Radius](https://docs.predicthq.com/getting-started/guides/geolocation-guides/searching-by-location/find-events-by-latitude-longitude-and-radius.md)
+- [Find Events by Place ID](https://docs.predicthq.com/getting-started/guides/geolocation-guides/searching-by-location/find-events-by-place-id.md)
+- [Find Events by IATA Code](https://docs.predicthq.com/getting-started/guides/geolocation-guides/searching-by-location/find-events-by-iata-code.md)
+- [Find Events by Country Code](https://docs.predicthq.com/getting-started/guides/geolocation-guides/searching-by-location/find-events-by-country-code.md)
+- [Find Events by Placekey](https://docs.predicthq.com/getting-started/guides/geolocation-guides/searching-by-location/find-events-by-placekey.md)
+- [Working with Location-Based Subscriptions](https://docs.predicthq.com/getting-started/guides/geolocation-guides/searching-by-location/working-with-location-based-subscriptions.md)
+- [Understanding Place Hierarchies](https://docs.predicthq.com/getting-started/guides/geolocation-guides/understanding-place-hierarchies.md)
+- [Working with Polygons](https://docs.predicthq.com/getting-started/guides/geolocation-guides/working-with-polygons.md)
+- [Join Events using Placekey](https://docs.predicthq.com/getting-started/guides/geolocation-guides/join-events-using-placekey.md)
+- [Date and Time Guides](https://docs.predicthq.com/getting-started/guides/date-and-time-guides.md)
+- [Working with Recurring Events](https://docs.predicthq.com/getting-started/guides/date-and-time-guides/working-with-recurring-events.md)
+- [Working with Multi-day and Umbrella Events](https://docs.predicthq.com/getting-started/guides/date-and-time-guides/working-with-multi-day-and-umbrella-events.md)
+- [Working with Dates, Times and Timezones](https://docs.predicthq.com/getting-started/guides/date-and-time-guides/working-with-dates-times-and-timezones.md): Working with dates, times and timezones can be hard.This guide aims to clarify how to work with these with PredictHQ data.
+- [Events API Guides](https://docs.predicthq.com/getting-started/guides/events-api-guides.md)
+- [Attendance-Based Events Notebooks](https://docs.predicthq.com/getting-started/guides/events-api-guides/attendance-based-events-data-science-guides.md)
+- [Non-Attendance-Based Events Notebooks](https://docs.predicthq.com/getting-started/guides/events-api-guides/non-attendance-based-events-data-science-guides.md)
+- [Severe Weather Events Notebooks](https://docs.predicthq.com/getting-started/guides/events-api-guides/severe-weather-events-data-science-guides.md)
+- [Academic Events Notebooks](https://docs.predicthq.com/getting-started/guides/events-api-guides/academic-events-data-science-guides.md)
+- [Working with Venues Notebook](https://docs.predicthq.com/getting-started/guides/events-api-guides/working-with-venues.md)
+- [Features API Guides](https://docs.predicthq.com/getting-started/guides/features-api-guides.md)
+- [Increase Accuracy with the Features API](https://docs.predicthq.com/getting-started/guides/features-api-guides/increase-accuracy-with-the-features-api.md)
+- [Get ML Features](https://docs.predicthq.com/getting-started/guides/features-api-guides/feature-engineering-guide.md): The provided notebook demonstrates how you can get forecast-ready features for your locations at scale. To do this, we will use the Features API.
+- [Demand Forecasting with Event Features](https://docs.predicthq.com/getting-started/guides/features-api-guides/demand-forecasting-data-science-guides.md): The provided notebook demonstrates how you can incorporate forecast-ready event features into your demand forecasting model.
+- [Using event features with time series foundation models](https://docs.predicthq.com/getting-started/guides/features-api-guides/using-event-features-with-time-series-foundation-models.md): Supply PredictHQ event features as future covariates to pre-trained forecasting models such as Chronos, TimesFM, and TimeGPT.
+- [Forecasts API Guides](https://docs.predicthq.com/getting-started/guides/forecasts-api-guides.md)
+- [Getting Started with Forecasts API](https://docs.predicthq.com/getting-started/guides/forecasts-api-guides/getting-started.md)
+- [Understanding Forecast Accuracy Metrics](https://docs.predicthq.com/getting-started/guides/forecasts-api-guides/understanding-forecast-accuracy-metrics.md)
+- [Troubleshooting Guide for Forecasts API](https://docs.predicthq.com/getting-started/guides/forecasts-api-guides/troubleshooting.md)
+- [Live TV Event Guides](https://docs.predicthq.com/getting-started/guides/live-tv-event-guides.md)
+- [Find Broadcasts by County Place ID](https://docs.predicthq.com/getting-started/guides/live-tv-event-guides/find-broadcasts-by-county-place-id.md)
+- [Find Broadcasts by Latitude and Longitude](https://docs.predicthq.com/getting-started/guides/live-tv-event-guides/find-broadcasts-by-latitude-and-longitude.md)
+- [Find all Broadcasts for an Event](https://docs.predicthq.com/getting-started/guides/live-tv-event-guides/find-all-broadcasts-for-an-event.md)
+- [Find Broadcasts for Specific Sport Types](https://docs.predicthq.com/getting-started/guides/live-tv-event-guides/find-broadcasts-for-specific-sport-types.md): Better understand predicted vs scheduled broadcasts as well as different sport types.
+- [Aggregating Live TV Events](https://docs.predicthq.com/getting-started/guides/live-tv-event-guides/aggregating-live-tv-events.md)
+- [Live TV Events Notebooks](https://docs.predicthq.com/getting-started/guides/live-tv-event-guides/live-tv-events-data-science-guides.md)
+- [Beam Guides](https://docs.predicthq.com/getting-started/guides/beam-guides.md)
+- [Understanding Demand Variability and Event Contribution in Beam](https://docs.predicthq.com/getting-started/guides/beam-guides/understanding-demand-variability-and-event-contribution-in-beam.md)
+- [ML Features by Location](https://docs.predicthq.com/getting-started/guides/beam-guides/forecast-ready-features-at-scale.md): The provided notebook demonstrates how you can get relevant forecast-ready features for your locations, at scale. To do this, we will use the Beam API.
+- [ML Features by Group](https://docs.predicthq.com/getting-started/guides/beam-guides/ml-features-by-group.md): The provided notebook demonstrates how you can get an aggregated set of relevant forecast-ready features for several of your locations. To do this, we will use the Beam API's Analysis Groups.
+- [Sample Demand Data](https://docs.predicthq.com/getting-started/guides/beam-guides/sample-demand-data.md)
+- [How Industry Affects Results](https://docs.predicthq.com/getting-started/guides/how-industry-affects-results.md)
+- [Guide to Protecting PredictHQ Data](https://docs.predicthq.com/getting-started/guides/guide-to-protecting-predicthq-data.md): It's important to protect PredictHQ data from unauthorized access and usage.
+- [Streamlit Demo Apps](https://docs.predicthq.com/getting-started/guides/streamlit-demo-apps.md)
+- [Recommended Event Categories and Local Rank Thresholds](https://docs.predicthq.com/getting-started/guides/industry-specific-event-filters.md): Industry-level defaults for event relevancy when Beam can’t be used.
+- [Tutorials](https://docs.predicthq.com/getting-started/guides/tutorials.md)
+- [Filtering and Finding Relevant Events](https://docs.predicthq.com/getting-started/guides/tutorials/filtering-and-finding-relevant-events.md): Learn how to filter and find events relevant to your business using PredictHQ's Events API.
+- [Improving Demand Forecasting Models with Event Features](https://docs.predicthq.com/getting-started/guides/tutorials/improving-demand-forecasting-models-with-event-features.md): Learn how to integrate PredictHQ's event features into your demand forecasting model.
+- [Using Event Data in Power BI](https://docs.predicthq.com/getting-started/guides/tutorials/using-event-data-in-power-bi.md): Learn how to connect PredictHQ data to Power BI using multiple methods, and build an example report.
+- [Using Event Data in Tableau](https://docs.predicthq.com/getting-started/guides/tutorials/using-event-data-in-tableau.md): Learn how to connect PredictHQ data to Tableau and build an example dashboard.
+- [Connecting to PredictHQ APIs with Microsoft Excel](https://docs.predicthq.com/getting-started/guides/tutorials/connecting-to-predicthq-apis-with-microsoft-excel.md): Learn how to connect PredictHQ data to Microsoft Excel using APIs.
+- [Loading Event Data into a Data Warehouse](https://docs.predicthq.com/getting-started/guides/tutorials/loading-event-data-into-a-data-warehouse.md): Take PredictHQ API data and load it into a data warehouse, in this example, GCP BigQuery.
+- [Displaying Events in a Heatmap Calendar](https://docs.predicthq.com/getting-started/guides/tutorials/displaying-events-in-a-heatmap-calendar.md): Learn how to create a heatmap-styled calendar to display event attendance for a location.
+- [Displaying Events on a Map](https://docs.predicthq.com/getting-started/guides/tutorials/displaying-events-on-a-map.md): Learn how to display events on a map for a specific location.
+- [Use Case Guides](https://docs.predicthq.com/getting-started/use-case-guides.md)
+- [Accommodation: The Proven Path to Value](https://docs.predicthq.com/getting-started/use-case-guides/accommodation-the-proven-path-to-value.md)
+- [Build with AI](https://docs.predicthq.com/ai/build-with-ai.md): Ground AI systems in verified real-world event data and build integrations faster with the MCP server, agent skills, and AI-readable docs.
+- [Using PredictHQ with AI Assistants](https://docs.predicthq.com/ai/using-predicthq-with-ai-assistants.md): How AI assistants and agents retrieve verified real-world event context from PredictHQ at inference time to ground responses and reduce hallucinations.
+- [MCP Server](https://docs.predicthq.com/ai/mcp.md): Connect AI agents to verified real-world event context on demand. External grounding for LLMs via the Model Context Protocol—no data pipeline to maintain.
+- [PredictHQ MCP in Agentic Workflows](https://docs.predicthq.com/ai/predicthq-mcp-in-agentic-workflows.md): Reference architectures for autonomous agents that query the PredictHQ MCP server for verified demand context at decision time.
+- [Bolt](https://docs.predicthq.com/ai/bolt.md): An AI-native notebook inside the PredictHQ WebApp. Bolt answers from live PredictHQ API data—a working example of a grounded agent.
+- [Integration Guides](https://docs.predicthq.com/integrations/integration-guides.md)
+- [Standard Integration Pattern](https://docs.predicthq.com/integrations/integration-guides/standard-integration-pattern.md)
+- [Keep Data Updated via API](https://docs.predicthq.com/integrations/integration-guides/keep-data-updated-via-api.md): Event information changes frequently. For example, a date changes, an event gets cancelled or ranking is updated. It’s important to keep your data set up to date.
+- [Integrate with Beam](https://docs.predicthq.com/integrations/integration-guides/beam-data-science-guide.md): Beam is PredictHQ's automated correlation engine that helps you identify what events have impacted your demand in the past, to help you make better decisions in the future.
+- [Integrate with Loop Links](https://docs.predicthq.com/integrations/integration-guides/integrate-with-loop-links.md): Loop Links provide an easy way for you submit missing Events and provide feedback on existing Events.
+- [Third-Party Integrations](https://docs.predicthq.com/integrations/third-party-integrations.md)
+- [Receive Data via Snowflake](https://docs.predicthq.com/integrations/third-party-integrations/snowflake.md)
+- [Example SQL Queries for Snowflake](https://docs.predicthq.com/integrations/third-party-integrations/snowflake/example-sql-queries-for-snowflake.md)
+- [Snowflake Data Science Guide](https://docs.predicthq.com/integrations/third-party-integrations/snowflake/snowflake-data-science-guide.md): Transforming Event Data into ML-Ready Features in Snowflake
+- [Snowpark Method Guide](https://docs.predicthq.com/integrations/third-party-integrations/snowflake/snowflake-data-science-guide/snowpark-method-guide.md): Transforming Event Data into ML-Ready Features using Snowpark and Python
+- [SQL Method Guide](https://docs.predicthq.com/integrations/third-party-integrations/snowflake/snowflake-data-science-guide/sql-method-guide.md): Transforming Event Data into ML-Ready Features using SQL
+- [Receive Data via AWS Data Exchange](https://docs.predicthq.com/integrations/third-party-integrations/aws-data-exchange.md)
+- [CSV/Parquet Data Structure for ADX](https://docs.predicthq.com/integrations/third-party-integrations/aws-data-exchange/csv-parquet-data-structure-for-adx.md): Data can be provided as NDJSON, CSV or Parquet. This document describes the CSV/Parquet data structure.
+- [NDJSON Data Structure for ADX](https://docs.predicthq.com/integrations/third-party-integrations/aws-data-exchange/ndjson-data-structure-for-adx.md): Data can be provided as NDJSON, CSV or Parquet. This document describes the NDJSON data structure.
+- [Receive Data via SFTP](https://docs.predicthq.com/integrations/third-party-integrations/sftp.md)
+- [Integrate with Databricks](https://docs.predicthq.com/integrations/third-party-integrations/integrate-with-databricks.md): Deploy PredictHQ's verified real-world context into Databricks via S3 or Snowflake for model training, inference-time features, and grounding AI systems.
+- [Integrate with Tableau](https://docs.predicthq.com/integrations/third-party-integrations/tableau-data-connector.md): Use events data in Tableau
+- [Integrate with a Demand Forecast in PowerBI](https://docs.predicthq.com/integrations/third-party-integrations/integrate-with-a-demand-forecast-in-powerbi.md): Use PowerBI's AutoML models to forecast demand using PredictHQ technologies.
+- [Google Cloud BigQuery](https://docs.predicthq.com/integrations/third-party-integrations/google-cloud-bigquery.md)
+- [Python SDK](https://docs.predicthq.com/sdks/python-sdk.md): The official PredictHQ Python Client provides a consistent, pythonic interface to our API.
+- [Javascript SDK](https://docs.predicthq.com/sdks/javascript-sdk.md): The official PredictHQ JavaScript Client provides a consistent JavaScript interface to our API.
+
+## API Reference
+
+- [API Reference](https://docs.predicthq.com/api/readme.md)
+- [Authenticating](https://docs.predicthq.com/api/overview/authenticating.md)
+- [API Specs](https://docs.predicthq.com/api/overview/api-specs.md): We provide OpenAPI specs for all our APIs
+- [Rate Limits](https://docs.predicthq.com/api/overview/rate-limits.md)
+- [Pagination](https://docs.predicthq.com/api/overview/pagination.md)
+- [API Changes](https://docs.predicthq.com/api/overview/api-changes.md)
+- [Attribution](https://docs.predicthq.com/api/overview/attribution.md)
+- [Troubleshooting](https://docs.predicthq.com/api/overview/troubleshooting.md)
+- [Search Events](https://docs.predicthq.com/api/events/search-events.md): Verified real-world events for grounding AI systems, explaining forecasts, and retrieval at decision time—structured, deduplicated, and enriched.
+- [Get Event Counts](https://docs.predicthq.com/api/events/get-event-counts.md): Get the count of events by category, PHQ Label and more.
+- [Search Broadcasts](https://docs.predicthq.com/api/broadcasts/search-broadcasts.md): Search for Live TV broadcasts happening in a location.
+- [Get Broadcasts Count](https://docs.predicthq.com/api/broadcasts/get-broadcasts-count.md): Get the count of Live TV broadcasts by category, label and more.
+- [Get ML Features](https://docs.predicthq.com/api/features/get-features.md): Model-ready features engineered from real-world events. Train forecasting models on historical windows and retrieve future-dated values at inference.
+- [Overview](https://docs.predicthq.com/api/forecasts/overview.md)
+- [Models](https://docs.predicthq.com/api/forecasts/models.md)
+- [Create Model](https://docs.predicthq.com/api/forecasts/models/create-model.md): Create a forecast model.
+- [Update Model](https://docs.predicthq.com/api/forecasts/models/update-model.md): Update an existing forecast model.
+- [Replace Model](https://docs.predicthq.com/api/forecasts/models/replace-model.md): Replace an existing forecast model.
+- [Delete Model](https://docs.predicthq.com/api/forecasts/models/delete-model.md)
+- [Search Models](https://docs.predicthq.com/api/forecasts/models/search-models.md): Search forecast models.
+- [Get Model](https://docs.predicthq.com/api/forecasts/models/get-model.md): Get an existing forecast model.
+- [Train Model](https://docs.predicthq.com/api/forecasts/models/train-model.md): Train an existing forecast model.
+- [Demand Data](https://docs.predicthq.com/api/forecasts/demand-data.md)
+- [Upload Demand Data](https://docs.predicthq.com/api/forecasts/demand-data/upload-demand-data.md): Upload historical demand data for an existing forecast model.
+- [Get Demand Data](https://docs.predicthq.com/api/forecasts/demand-data/get-demand-data.md): Get previously uploaded demand data.
+- [Forecasts](https://docs.predicthq.com/api/forecasts/forecasts.md)
+- [Get Forecast](https://docs.predicthq.com/api/forecasts/forecasts/get-forecast.md): Get forecast values for an existing model.
+- [Algorithms](https://docs.predicthq.com/api/forecasts/algorithms.md)
+- [Get Algorithms](https://docs.predicthq.com/api/forecasts/algorithms/get-algorithms.md): Get available algorithms.
+- [Overview](https://docs.predicthq.com/api/beam/overview.md)
+- [Analyses](https://docs.predicthq.com/api/beam/analyses.md)
+- [Create an Analysis](https://docs.predicthq.com/api/beam/analyses/create-an-analysis.md): Creating an Analysis is the first step in understand which types of events impact your demand.
+- [Update an Analysis](https://docs.predicthq.com/api/beam/analyses/update-an-analysis.md): Update (replace) an existing Analysis.
+- [Partially Update an Analysis](https://docs.predicthq.com/api/beam/analyses/partially-update-an-analysis.md): Partially update an existing Analysis.
+- [Delete an Analysis](https://docs.predicthq.com/api/beam/analyses/delete-an-analysis.md): Delete an existing Analysis.
+- [Search Analyses](https://docs.predicthq.com/api/beam/analyses/search-analyses.md): Search for an existing Analysis.
+- [Get an Analysis](https://docs.predicthq.com/api/beam/analyses/get-an-analysis.md): Get an existing Analysis.
+- [Refresh an Analysis](https://docs.predicthq.com/api/beam/analyses/refresh-an-analysis.md): Rerun the Beam correlation and analysis process.
+- [Upload Demand Data](https://docs.predicthq.com/api/beam/analyses/upload-demand-data.md): Upload your demand data as CSV, line-delimited JSON or JSON.
+- [Get Correlation Results](https://docs.predicthq.com/api/beam/analyses/get-correlation.md)
+- [Get Feature Importance](https://docs.predicthq.com/api/beam/analyses/get-feature-importance.md): Get relevant ML features based on a Beam Analysis.
+- [Analysis Groups](https://docs.predicthq.com/api/beam/analysis-groups.md)
+- [Create an Analysis Group](https://docs.predicthq.com/api/beam/analysis-groups/create-an-analysis-group.md): Creating an Analysis Group allows to aggregate Feature Importance for a number of Analyses
+- [Update an Analysis Group](https://docs.predicthq.com/api/beam/analysis-groups/update-an-analysis-group.md): Update (replace) an existing Analysis Group.
+- [Partially Update an Analysis Group](https://docs.predicthq.com/api/beam/analysis-groups/partially-update-an-analysis-group.md): Partially update an existing Analysis Group.
+- [Delete an Analysis Group](https://docs.predicthq.com/api/beam/analysis-groups/delete-an-analysis-group.md): Delete an existing Analysis Group.
+- [Search Analysis Groups](https://docs.predicthq.com/api/beam/analysis-groups/search-analysis-groups.md): Search for an existing Analysis Group.
+- [Get an Analysis Group](https://docs.predicthq.com/api/beam/analysis-groups/get-an-analysis-group.md): Get an existing Analysis Group.
+- [Refresh an Analysis Group](https://docs.predicthq.com/api/beam/analysis-groups/refresh-an-analysis-group.md): Re-run the Beam Analysis Group aggregation process.
+- [Get Feature Importance for an Analysis Group](https://docs.predicthq.com/api/beam/analysis-groups/get-aggregated-feature-importance.md): Get Feature Importance data for an Analysis Group.
+- [Get Predicted Impact Area](https://docs.predicthq.com/api/impact-area/get-impact-area.md): Determine the area around a location where events are likely to influence demand.
+- [Get Suggested Radius](https://docs.predicthq.com/api/suggested-radius/get-suggested-radius.md): Take the guesswork out of working out a suitable radius around your business when searching for events.
+- [Overview](https://docs.predicthq.com/api/saved-locations/overview.md)
+- [Create a Saved Location](https://docs.predicthq.com/api/saved-locations/create-a-saved-location.md): Create a new Saved Location to begin seeing insights.
+- [Update a Saved Location](https://docs.predicthq.com/api/saved-locations/update-a-saved-location.md): Update (replace) an existing Saved Location.
+- [Delete a Saved Location](https://docs.predicthq.com/api/saved-locations/delete-a-saved-location.md): Delete an existing Saved Location.
+- [Search Saved Locations](https://docs.predicthq.com/api/saved-locations/search-saved-locations.md): Search for existing Saved Locations.
+- [Get a Saved Location](https://docs.predicthq.com/api/saved-locations/get-a-saved-location.md): Get an existing Saved Location.
+- [Search Events for a Saved Location](https://docs.predicthq.com/api/saved-locations/search-events-for-a-saved-location.md): Search for events happening in an existing Saved Location.
+- [Loop Links](https://docs.predicthq.com/api/loop/loop-links.md)
+- [Create a Loop Link](https://docs.predicthq.com/api/loop/loop-links/create-a-loop-link.md): Create a new Loop Link to begin submitting events and feedback.
+- [Search Loop Links](https://docs.predicthq.com/api/loop/loop-links/search-loop-links.md): Search existing Loop Links.
+- [Get a Loop Link](https://docs.predicthq.com/api/loop/loop-links/get-a-loop-link.md): Get an existing Loop Link.
+- [Update a Loop Link](https://docs.predicthq.com/api/loop/loop-links/update-a-loop-link.md): Update (replace) an existing Loop Link.
+- [Delete a Loop Link](https://docs.predicthq.com/api/loop/loop-links/delete-a-loop-link.md): Delete an existing Loop Link.
+- [Loop Settings](https://docs.predicthq.com/api/loop/loop-settings.md)
+- [Get Loop Settings](https://docs.predicthq.com/api/loop/loop-settings/get-loop-settings.md): Loop settings are used to control how certain elements might be displayed inside the Loop UI.
+- [Update Loop Settings](https://docs.predicthq.com/api/loop/loop-settings/update-loop-settings.md): Update your Loop Settings.
+- [Loop Submissions](https://docs.predicthq.com/api/loop/loop-submissions.md)
+- [Search Submitted Events](https://docs.predicthq.com/api/loop/loop-submissions/search-submitted-events.md): Search events submitted by your organization.
+- [Loop Feedback](https://docs.predicthq.com/api/loop/loop-feedback.md)
+- [Search Feedback](https://docs.predicthq.com/api/loop/loop-feedback/search-feedback.md): Search feedback conversations submitted by your organization.
+- [Search Places](https://docs.predicthq.com/api/places/search-places.md): Search for a Place.
+- [Get Place Hierarchies](https://docs.predicthq.com/api/places/get-place-hierarchies.md): Get the list of hierarchies for a Place.
+- [Get Demand Surges](https://docs.predicthq.com/api/demand-surge/get-demand-surges.md): Identify dates with surges in demand caused by multiple events happening at the same time and location.
+
+## Changelog
+
+- [Changelog](https://docs.predicthq.com/changelog/changelog.md): A record of product updates, data quality improvements, and new features across the PredictHQ platform. Updated each release cycle.
+- [2025 Changelog](https://docs.predicthq.com/changelog/2025.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.predicthq.com/readme.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

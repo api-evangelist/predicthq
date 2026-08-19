@@ -1,0 +1,46 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "PredictHQ Events API",
+    "version": "1.0.0"
+  },
+  "request": {
+    "auth": {
+      "type": "bearer",
+      "token": "{{bearerToken}}"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Events",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Search Events",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.predicthq.com/v1/events/"
+          },
+          "docs": "Search across global real-world events."
+        },
+        {
+          "info": {
+            "name": "Get Event Counts",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.predicthq.com/v1/events/count/"
+          },
+          "docs": "Get the count of events by category, PHQ Label and more."
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
