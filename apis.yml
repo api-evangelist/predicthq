@@ -24,6 +24,12 @@ access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/predicthq.png
 tags:
   - Demand Intelligence
+  - Event
+  - Forecasting
+  - Machine-Learning
+  - Real-World Events
+tags_raw:
+  - Demand Intelligence
   - Events
   - Forecasting
   - Machine Learning
@@ -38,6 +44,8 @@ apis:
   description: The Events API from PredictHQ — 2 operation(s) for events.
   humanURL: https://www.predicthq.com/
   tags:
+  - Event
+  tags_raw:
   - Events
   properties:
   - type: OpenAPI
