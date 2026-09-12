@@ -123,6 +123,8 @@ apis:
   - type: GettingStarted
     url: https://docs.predicthq.com/getting-started
 common:
+  - type: Website
+    url: https://www.predicthq.com/
   - type: AgenticAccess
     url: agentic-access/predicthq-agentic-access.yml
   - type: DomainSecurity
