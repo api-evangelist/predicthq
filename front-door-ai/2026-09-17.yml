@@ -1,0 +1,33 @@
+# Front Door AI Index — predicthq — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: predicthq
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.predicthq.com
+  final_host: www.predicthq.com
+  ownership: own
+  owner: predicthq
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 25
+  host_score: 25
+  density: 20.46
+  words: 1222
+  tiers:
+    agentic: 7
+    core: 18
+    model: 0
+  ambiguous: 5
+  top_terms:
+    AI: 15
+    inference: 4
+    intelligence: 4
+    MCP: 2
+    AI agent: 1
+    LLMs: 1
+    ML: 1
+    agent: 1
+    machine learning: 1

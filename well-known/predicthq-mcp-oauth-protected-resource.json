@@ -1,0 +1,1 @@
+{"resource":"https://mcp.predicthq.com/v1/mcp","authorization_servers":["https://mcp.predicthq.com/"],"scopes_supported":["beam:create","beam:delete","beam:read","beam:read:org","beam:update","broadcasts","events","features-api","forecasts","mcp","places"],"bearer_methods_supported":["header"]}

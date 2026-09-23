@@ -1,10 +1,7 @@
 {
   "provider": "predicthq",
   "sources": [
-    "predicthq-events-api-openapi.yml",
-    "predicthq-features-api-openapi.yml",
-    "predicthq-places-api-openapi.yml",
-    "predicthq-suggested-radius-api-openapi.yml"
+    "_ae-authored/predicthq-openapi.yml"
   ],
   "outputs": [
     "predicthq-events-api-openapi.yml",
@@ -15,6 +12,24 @@
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "predicthq-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "predicthq-openapi.yml: tagged paths GET /events/ -> Events",
+    "predicthq-openapi.yml: tagged paths GET /events/count/ -> Events",
+    "predicthq-openapi.yml: tagged paths POST /features/ -> Features",
+    "predicthq-openapi.yml: tagged paths GET /suggested-radius/ -> Suggested Radius",
+    "predicthq-openapi.yml: tagged paths GET /places/ -> Places",
+    "predicthq-openapi.yml: declared missing tag: Events",
+    "predicthq-openapi.yml: declared missing tag: Features",
+    "predicthq-openapi.yml: declared missing tag: Places",
+    "predicthq-openapi.yml: declared missing tag: Suggested Radius",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "predicthq-events-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "predicthq-features-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "predicthq-places-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "predicthq-suggested-radius-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }
