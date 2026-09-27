@@ -39,7 +39,7 @@ tags:
   - Demand Intelligence
   - Event
   - Forecasting
-  - Machine-Learning
+  - Machine Learning
   - Real-World Events
 tags_raw:
   - Demand Intelligence
@@ -47,6 +47,7 @@ tags_raw:
   - Forecasting
   - Machine Learning
   - Real-World Events
+  - Machine-Learning
 created: '2025-02-24'
 modified: '2026-05-19'
 url: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/apis.yml
