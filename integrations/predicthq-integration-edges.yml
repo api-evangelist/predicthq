@@ -1,0 +1,72 @@
+edges:
+- partner_name: Databricks Marketplace
+  partner: databricks
+  partner_match: aggregator
+  type: marketplace
+  marketplace: databricks-marketplace
+  channel: distribution
+  relationship: distribution-channel
+  direction: third-party
+  evidence: https://marketplace.databricks.com/provider/75082c74-8371-43f8-b6c2-8dfbf076ac3c
+  category: data product listing
+  contract_reference:
+    register: Databricks Marketplace (marketplace.databricks.com/api/2.0/public-marketplace-providers + public-marketplace-listings)
+    spec_file: null
+    role: data-marketplace-seller
+    registered_name: PredictHQ
+    matched_domain: predicthq.com
+    matched_by: domain
+    listings: 6
+    sample_listings:
+    - Curated Global Intelligent Event Data
+    - Demand Intelligence - Live TV Event Broadcasts, California
+    - Intelligent Event Data Sample - Attended Events, Seattle
+    - Intelligent Event Data Sample - Non-Attended Events, Seattle
+    - Intelligent Event Data Sample - Unscheduled Events, California
+    signal_note: 'participation: the provider lists data products on this marketplace; counts are context'
+    detected_by: sweep-data-marketplaces.py
+    detected: '2026-10-20'
+  detected_by: sweep-data-marketplaces.py
+  detected: '2026-10-20'
+- partner_name: AWS Data Exchange
+  partner: amazon-data-exchange
+  partner_match: aggregator
+  type: marketplace
+  marketplace: amazon-data-exchange-marketplace
+  channel: distribution
+  relationship: distribution-channel
+  direction: third-party
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=b82dc088-06e8-4b0c-9068-42e35f9a099b
+  category: data product listing
+  contract_reference:
+    register: AWS Data Exchange (AWS Marketplace discovery search, FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE + seller-profile
+      sellerWebsiteUrl)
+    spec_file: null
+    role: data-marketplace-seller
+    registered_name: PredictHQ
+    matched_domain: predicthq.com
+    matched_by: domain
+    listings: 7
+    sample_listings:
+    - Demand Intelligence - Live TV event broadcasts
+    - Intelligent Event data sample - Attended events, Seattle
+    - Intelligent Event data sample - Non attended events, Seattle
+    - Intelligent Event data sample, Unscheduled events, California
+    - PredictHQ x AWS Workshop on AWS Quicksight - EMEA (Lisbon)
+    signal_note: 'participation: the provider lists data products on this marketplace; counts are context'
+    detected_by: sweep-data-marketplaces.py
+    detected: '2026-10-20'
+  detected_by: sweep-data-marketplaces.py
+  detected: '2026-10-20'
+  publisher_verified:
+  - AWS Specializations
+  - Deployed on AWS
+  - Standard Data Agreement
+generated: '2026-10-20'
+method: searched
+source:
+- https://aws.amazon.com/marketplace/search/results?FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE
+- https://marketplace.databricks.com/
+checked:
+- https://aws.amazon.com/marketplace/search/results?FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE
+- https://marketplace.databricks.com/
